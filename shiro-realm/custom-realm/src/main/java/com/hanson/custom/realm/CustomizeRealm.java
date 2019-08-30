@@ -8,7 +8,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 /**
  * 自定义Realm
  */
-public class HansonRealm extends AuthorizingRealm {
+public class CustomizeRealm extends AuthorizingRealm {
 
     /**
      * 设置Realm的名称

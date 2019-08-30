@@ -12,7 +12,7 @@ import org.apache.shiro.util.Factory;
 /**
  * 自定义Realm程序
  */
-public class CustomRealmApp {
+public class RealmTestApp {
     /**
      * main方法
      *
