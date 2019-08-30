@@ -22,3 +22,8 @@
 ##### 2、自定义Realm
 > 工程shiro-realm,实际工作中用户的信息应当存在数据库中,上面认证示例采用的是在ini文件中配置用户信息
 
+- Shiro提供的Realm
+    - 最基础的接口是Realm
+        - CachingRealm: 负责缓存处理
+        - AuthenticationRealm: 负责认证
+        - AuthorizingRealm: 负责授权,通常自定义的realm继承AuthorizingRealm

@@ -11,7 +11,7 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 
 /**
- * 认证
+ * 认证示例程序
  */
 public class AuthenticationApp {
 
