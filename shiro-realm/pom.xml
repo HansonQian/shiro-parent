@@ -12,10 +12,10 @@
     <artifactId>shiro-realm</artifactId>
     <packaging>pom</packaging>
 
-    <name>shiro-realm :: shiro域</name>
     <modules>
-        <module>custom-realm</module>
-        <module>custom-realm-md5</module>
+        <module>custom-realm-authentication</module>
+        <module>custom-realm-authentication-md5</module>
+        <module>custom-realm-authorize</module>
     </modules>
 
 
