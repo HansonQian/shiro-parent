@@ -27,9 +27,3 @@ HELP.md
 
 ### VS Code ###
 .vscode/
-shiro-authentication/src/test/
-shiro-authorization/src/test/
-shiro-authorization/target/generated-sources/
-shiro-realm/custom-realm-md5/src/test/
-shiro-realm/custom-realm/src/test/
-shiro-authentication/target/

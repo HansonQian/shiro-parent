@@ -31,7 +31,8 @@ public class AuthenticationApp {
         //4、创建Subject
         Subject subject = SecurityUtils.getSubject();
         //5、准备Token
-        UsernamePasswordToken token = new UsernamePasswordToken("hanson", "123456");
+        UsernamePasswordToken token =
+                new UsernamePasswordToken("hanson", "123456");
         //6、执行认证、异常信息都是AuthenticationException子类
         try {
             subject.login(token);
